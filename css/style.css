@@ -1,0 +1,230 @@
+/* fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital@1&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* pedidos */
+.anuncio_pedidos{
+	text-align: center;
+	font-size: 30px;
+	color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue';
+}
+/* fin anuncio pedidos */
+
+/* inicio-nav-bar */
+.logo_cerceveria_oktubre{
+    width: 120px;
+    border-radius: 20%;}
+
+#font-nav{
+    font-size: 25px;
+    margin-right: 1em;
+}
+
+#nav-botonera{
+    background-color: rgb(166, 38, 57);
+    margin: 0;
+	padding: 0;
+
+}
+body{
+    background-color: rgb(162, 156, 155)
+}
+
+/* main */
+h4{
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-right: 50px;
+}
+
+@media (max-width:800px){
+    .pie .grupo{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+/* fin main */
+
+
+/* Inicio footer */
+
+.pie{
+    width: 100%;
+    background-color: rgb(86, 73, 78);
+	margin-top: 90px;
+}
+.grupo{
+	width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.caja figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja figure img{
+    width: 170px;
+}
+
+.caja p{
+    color: #ffffff;
+    margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.fbicon{
+	width: 30px;
+}
+.igicon{
+	width: 30px;
+}
+
+/* fin footer */
+
+
+/* animacion h3 */
+h3{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+	display: flex;
+	justify-content: center;
+    margin-top: 1em;
+	font-size: 75px;
+	animation-duration: 5s;
+	animation-name: aparecer;
+	animation-iteration-count: initial;
+    -webkit-text-stroke: 1.5px black;
+}
+
+
+
+@keyframes aparecer{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+
+/* formulario contacto */
+h2{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    }
+
+.contactoH{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+.cambiar{
+        display: block;
+        padding: 12px;
+        width: 100%;
+        border: 0;
+        background-color: rgba(255,255,255,0.1);
+        display: flex;
+}
+
+/* mapa-ubicacion */
+.mapa{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.local{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.h1{
+    font-size: 35%;
+}
+/* fin mapa-ubicacion */
+
+
+/* inicio menu */
+
+.galeria{
+	width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+        .galeria figure img{
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            width: 100%;
+        }
+
+        .galeria figure figcaption{
+            font-size: 2.5rem;
+            color: rgb(166, 38, 57) ;
+            padding: 10px 0;
+            background-color: rgb(78, 73, 73);
+        }
+
+        .galeria p.price{
+            color: #ffffff;
+            padding-bottom: 10px;
+            background-color: rgb(25, 24, 29);
+			font-size: 30px;
+        }
+
+		/* RESPONSIVE */
+		@media (max-width:800px){
+			.responsive{
+				flex-direction: column;
+				font-size: 10px;
+			}
+			.galeria{
+				width: 100%;
+    			max-width: 1200px;
+				margin: auto;
+				display:grid;
+				grid-template-columns: repeat(1, 1fr);
+				grid-gap:50px;
+				padding: 45px 0px;
+			}
+			
+		}
+
+/* fin menu */
+
+/* Inicio Nosotros */
+.Titulo_nosotros{
+	margin-left: 4%;
+	font-size: 100px;
+}
+.Nosotros{
+	font-size: 30px;
+	font-family: 'Lora', serif;
+	margin: 100px;
+}
+.video{
+	display: flex;
+	justify-content: center;
+}
+.Videoham{
+	width: 65%;
+}
+
+
+/* fin nosotros */

@@ -1,0 +1,49 @@
+.pie{
+    width: 100%;
+    background-color: rgb(86, 73, 78);
+	margin-top: 90px;
+    .grupo{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:50px;
+        padding: 45px 0px;
+
+        .caja{
+            figure{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 170px;
+                }
+            }
+            p{
+                color: $color3;
+                margin-bottom: 10px;
+                font-size: 20px;
+            }
+            .fbicon{
+                width: 30px;
+            }
+            .igicon{
+                width: 30px;
+            }
+        }
+    }
+}
+@media (max-width:800px){
+    .pie{
+        .grupo{
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap:30px;
+            padding: 35px 0px;
+        }
+    } 
+}
+

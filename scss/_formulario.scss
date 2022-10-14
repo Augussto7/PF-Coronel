@@ -1,0 +1,19 @@
+.Caja{
+    h2{
+        font-size: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    .contactoH{
+        padding-left: 150px;
+        padding-right: 150px;
+        .cambiar{
+            display: block;
+            padding: 12px;
+            width: 100%;
+            border: 0;
+            background-color: $color3;
+            display: flex;
+        }
+    }
+}

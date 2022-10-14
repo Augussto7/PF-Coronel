@@ -1,0 +1,50 @@
+/* inicio menu */
+
+.galeria{
+	width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+    figure{
+        img{
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            width: 100%;
+        }
+        figcaption{
+            font-size: 2.5rem;
+            color: $color1 ;
+            padding: 10px 0;
+            background-color: $color6;
+        }
+    }
+    .price{
+        color: $color3;
+        padding-bottom: 10px;
+        background-color: $color7;
+        font-size: 30px;
+    }
+}
+
+		/* RESPONSIVE */
+		@media (max-width:800px){
+			.responsive{
+				flex-direction: column;
+				font-size: 10px;
+			}
+			.galeria{
+				width: 100%;
+    			max-width: 1200px;
+				margin: auto;
+				display:grid;
+				grid-template-columns: repeat(1, 1fr);
+				grid-gap:50px;
+				padding: 45px 0px;
+			}
+			
+		}
+
+/* fin menu */

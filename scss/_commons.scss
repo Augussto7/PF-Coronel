@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital@1&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+$color1: rgb(166, 38, 57);
+$color2: rgb(162, 156, 155);
+$color3: rgb(255, 255, 255);
+$color4: rgb(0, 0, 0);
+$color5: rgb(86, 73, 78);
+$color6: rgb(78, 73, 73);
+$color7: rgb(25, 24, 29);
+
+.logo_cerceveria_oktubre{
+    width: 120px;
+    border-radius: 20%;
+}
+
+body{
+    background-color: $color2;
+}
+
+h4{
+	font-size: 25px;
+	color: $color3;
+	margin-right: 50px;
+}
+
+@media (max-width:800px){
+    .pie{
+        .grupo{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+        }
+    }
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+	display: flex;
+	justify-content: center;
+    margin-top: 1em;
+	font-size: 75px;
+	animation-duration: 5s;
+	animation-name: aparecer;
+	animation-iteration-count: initial;
+    -webkit-text-stroke: 1.5px black;
+}
+
+@keyframes aparecer{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+.anuncio_pedidos{
+	text-align: center;
+	font-size: 30px;
+	color: $color4;
+    font-family: 'Bebas Neue';
+}
+
+
+
+
+// inicio mapa
+
+.ubicacion{
+    .local{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .mapa{
+        iframe{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+    }
+}
+// fin mapa
+
+/* Inicio Nosotros */
+
+.novedades{
+    .Titulo_nosotros{
+        margin-left: 4%;
+        font-size: 100px;
+    }
+    .video{
+        display: flex;
+        justify-content: center;
+        .Videoham{
+            width: 65%;
+        }
+    }
+    .InfoNosotros{
+        .Nosotros{
+            font-size: 30px;
+            font-family: 'Lora', serif;
+            margin: 100px;
+        }
+    }
+}
+
+/* fin nosotros */
